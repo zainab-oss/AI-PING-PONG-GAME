@@ -18,3 +18,25 @@
 #start,#status{
     font-size: 22px;
 }
+
+.footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    line-height: 2;
+    text-align: center;
+}
+
+.modal-dialog {
+    width: 90%;
+}
+
+.modal-header {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
