@@ -18,15 +18,20 @@
     <center>
         <div class="btn btn-warning heading">
             <h3>AI PING-PONG GAME</h3>
-            <button class="btn btn-primary" data-toggle="modal" data-target = "#myModal">Instructions</button>
+            <button class="btn btn-warning" data-toggle="modal" data-target = "#myModal">Instructions</button>
           </div>
         <br><br>
+        <center>
       <button class="btn btn-success" onclick="startGame()" id="start">Play Game</button>
       <br><br>
       <h3 class="btn btn-warning" id="status"></h3>
-      <button class="btn btn-success" onclick="Restart()" id="Restart">Restart</button>
       <br><br>
       <div id="canvas"></div>
+      <br>
+      <button class="btn btn-danger" onclick="Restart()" id="Restart">Restart</button>
+      <div class="footer">
+        Developed by Zainab Charfare
+      </div>
       <div id="game_comsole"></div>
       <div id="myModal" class="modal fade">
         <div class="modal-dialog">
@@ -47,9 +52,9 @@
           </div>
         </div>
       </div>
-      <div class="footer">
-        Developed by Zainab Charfare
-      </div>
+      
+      </center>
+
     </center>
 
         <script src="main.js"></script>
