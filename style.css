@@ -1,6 +1,8 @@
-.heading{
-    width: 100%;
-    text-align: left;
+
+.heading
+{
+width: 100%;
+text-align: left;
 }
 .heading h3{
     display: inline;
@@ -11,42 +13,29 @@
     border: 1px solid white;
 }
 
-.big_image{
-    width: 100%;
+#start ,#status, #restart
+{
+font-size: 22px;
 }
 
-#start,#status{
-    font-size: 22px;
+.modal-dialog
+{
+    width: 70%;
 }
-
-.footer {
-    position: fixed;
-    color: whitesmoke;
-    bottom: 0;
-    width: 100%;
-    background-color: darkslategrey;
-    line-height: 2;
-    text-align: center;
+.modal-body
+{
+    text-align: left;
+    font-size: 20px;
 }
-
-.modal-dialog {
-    width: 90%;
+h4
+{
+   background-color: grey;
+   color:white;
+   line-height: 2;
 }
-
-.modal-header {
-    text-align: center;
-}
-
-h4 {
-    text-align: center;
-}
-
-button{
-    text-align: center;
-    
-}
-
-canvas {
-    border-radius: 20px;
-    border: 5px dashed bisque;
-}
+canvas 
+  {
+      border:3px solid white;
+      border-radius: 20px;
+      box-shadow:  5px 5px 5px white;
+  }
